@@ -13,7 +13,7 @@ The WebdriverIO Recorder Extension allows you to record and export tests directl
 5. [Export the user flow](https://developer.chrome.com/docs/devtools/recorder/reference/#export-flows) as WebdriverIO test script. 
 6. [Run the test script](https://webdriver.io/docs/clioptions) with the [WebdriverIO Testrunner](https://webdriver.io/docs/setuptypes#the-wdio-testrunner) or as [Standalone](https://webdriver.io/docs/setuptypes#standalone-mode)!
 
-# Export user flows as WebdriverIO test scripts programmatically
+## Export user flows as WebdriverIO test scripts programmatically
 
 Use the [WDIO Chrome Recorder](https://github.com/webdriverio/chrome-recorder) CLI to Export user flows as Nightwatch test scripts programmatically.
 
