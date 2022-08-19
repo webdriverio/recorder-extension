@@ -1,31 +1,33 @@
 {
   "name": "webdriverio-recorder-extension",
   "version": "0.1.0",
+  "author": "Christian Bromann <mail@bromann.dev>",
   "description": "WebdriverIO Extension for Devtools that allows you to export tests directly from the Recorder panel.",
-  "scripts": {
-    "build": "./preprocessExtension.sh && rollup --config rollup.config.js"
-  },
+  "homepage": "https://github.com/webdriverio/recorder-extension#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webdriverio/recorder-extension.git"
   },
-  "author": "Christian Bromann <mail@bromann.dev>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/webdriverio/recorder-extension/issues"
   },
   "keywords": [
-    "nightwatch",
+    "webdriverio",
+    "wdio",
     "chrome",
     "extension",
     "automation"
   ],
-  "homepage": "https://github.com/webdriverio/recorder-extension#readme",
+  "license": "MIT",
+  "scripts": {
+    "build": "./preprocessExtension.sh && rollup --config rollup.config.js"
+  },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.3.0",
     "rollup": "^2.77.3"
   },
   "dependencies": {
-    "@nightwatch/chrome-recorder": "^0.1.4"
-  }
+    "@wdio/chrome-recorder": "next"
+  },
+  "private": true
 }

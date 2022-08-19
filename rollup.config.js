@@ -7,6 +7,6 @@ export default {
     format: 'iife'
   },
   plugins: [nodeResolve({
-    resolveOnly: ['@nightwatch/chrome-recorder', '@puppeteer/replay']
+    resolveOnly: ['@wdio/chrome-recorder', '@puppeteer/replay']
   })]
 };
