@@ -2,14 +2,20 @@
   "manifest_version": 3,
   "version": "0.1.2",
   "name": "WebdriverIO Chrome Recorder",
+
+  "default_locale": "en",
   "description": "WebdriverIO Extension for Devtools that allows you to export tests directly from the Recorder panel.",
-  "permissions": [],
-  "devtools_page": "DevToolsPlugin.html",
   "icons": {
     "16": "assets/icon16.png",
     "48": "assets/icon48.png",
     "128": "assets/icon128.png"
   },
+
+  "author": "Christian Bromann <mail@bromann.dev>",
+  "homepage_url": "https://webdriver.io",
+  "offline_enabled": true,
+  "permissions": [],
+  "devtools_page": "DevToolsPlugin.html",
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
   },
