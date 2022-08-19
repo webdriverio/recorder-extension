@@ -27,7 +27,7 @@
     "rollup": "^2.77.3"
   },
   "dependencies": {
-    "@wdio/chrome-recorder": "next"
+    "@wdio/chrome-recorder": "^0.1.0"
   },
   "private": true
 }
