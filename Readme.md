@@ -8,7 +8,7 @@ The WebdriverIO Recorder Extension allows you to record and export tests directl
 
 Below are some quick steps to help you get started. See [Record and export tests as WebdriverIO script](https://webdriver.io/docs/record) for the full documentation.
 
-1. Install the [extension]([https://webdriver.io](https://chrome.google.com/webstore/detail/webdriverio-chrome-record/pllimkccefnbmghgcikpjkmmcadeddfn)) from Chrome Web Store. 
+1. Install the [extension](https://chrome.google.com/webstore/detail/webdriverio-chrome-record/pllimkccefnbmghgcikpjkmmcadeddfn) from Chrome Web Store. 
 2. Open a new tab in the browser.
 3. [Open DevTools](https://developer.chrome.com/docs/devtools/open/).
 4. Open an existing user flow or [record a new user flow](https://goo.gle/devtools-recorder) with the Recorder panel.
