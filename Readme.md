@@ -1,6 +1,6 @@
 # WebdriverIO Recorder Extension
 
-The WebdriverIO Recorder Extension allows you to record and export tests directly from the Chrome DevTools [Recorder Panel](https://goo.gle/devtools-recorder). 
+The WebdriverIO Recorder Extension allows you to record and export tests directly from the Chrome DevTools [Recorder Panel](https://goo.gle/devtools-recorder).
 
 ![Demo](.github/assets/demo.png)
 
