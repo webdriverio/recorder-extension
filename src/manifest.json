@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "version": "0.2.1",
+  "version": "0.3.0",
   "name": "WebdriverIO Chrome Recorder",
 
   "description": "WebdriverIO Extension for Devtools that allows you to export tests directly from the Recorder panel.",
