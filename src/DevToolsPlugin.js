@@ -1,11 +1,11 @@
-import { stringifyChromeRecording } from "@wdio/chrome-recorder";
+import { stringifyChromeRecording, stringifyParsedStep } from "@wdio/chrome-recorder";
 
 export class RecorderPlugin {
-  async stringify(recording) {
-    return await stringifyChromeRecording(JSON.stringify(recording));
+  stringify(recording) {
+    return stringifyChromeRecording(JSON.stringify(recording));
   }
   async stringifyStep(step) {
-    return JSON.stringify(step);
+    return stringifyParsedStep(step);
   }
 }
 
